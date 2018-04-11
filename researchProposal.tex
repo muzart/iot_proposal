@@ -7,25 +7,48 @@
 \usepackage{authblk}
 
 
+\title{Research Proposal:\\
+Collaborative Modeling for IoT}
+\author{Muzaffar Artikov\\
+Software Engineering Department\\
+Urgench branch of Tashkent University of Information Technologies}
+\date{\today}							
 
-\title{Collaborative Modeling for IoT}
-\author{Muzaffar Artikov}
-\date{}							
+% Definition frame 
+%\newcounter{definition}[section]\setcounter{definition}{0}  
+%\renewcommand{\defi}{\arabic{section}.\arabic{definition}} 
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{array,graphicx}
+\usepackage{color, colortbl}
+\usepackage{lipsum}
+\newmdtheoremenv[
+	backgroundcolor=gray!15,
+	roundcorner=5pt,
+	innertopmargin=\baselineskip,
+    skipabove=\baselineskip,
+    aftersingleframe=\bigskip,
+    afterlastframe=\bigskip]
+{definition}{\textbf{Definition}}[section]
 
 \begin{document}
 \maketitle
-
+\input{sections/abstract}
 \section{Introduction}
-\input{sections/introduction}
+\input{sections/introduction}\label{sec:introduction}
 \section{Motivation}
-\input{sections/motivation}
+\input{sections/motivation}\label{sec:motivation}
 \section{State of Art}
-\input{sections/stateofart}
-\section{Research Question}
-\input{sections/research_question}
+\input{sections/stateofart}\label{sec:stateofart}
+\section{Research Objectives}
+\input{sections/researchObjectives}\label{sec:researchObjectives}
+\section{Expected Benefits}
+\input{sections/expectedBenefits}\label{sec:expectedBenefits}
 \section{Conclusion}
-\input{sections/conclusion}
+\input{sections/conclusion}\label{sec:conclusion}
 
 \bibliographystyle{abbrv}
 \bibliography{sections/references}
-\end{document}   
+\end{document}
