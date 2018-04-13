@@ -1,11 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.15)  13 APR 2018 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.4.6)  13 APR 2018 18:32
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**introduction.tex
-(./introduction.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+**./introduction.tex
+(introduction.tex
+LaTeX2e <2016/03/31> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -6895,17 +6893,17 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 )
 ! Emergency stop.
-<*> introduction.tex
-                    
+<*> ./introduction.tex
+                      
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 28 strings out of 492995
- 475 string characters out of 6132704
- 56074 words of memory out of 5000000
- 3679 multiletter control sequences out of 15000+600000
- 4294 words of font info for 16 fonts, out of 8000000 for 9000
+ 29 strings out of 493335
+ 440 string characters out of 3139264
+ 55225 words of memory out of 3000000
+ 3656 multiletter control sequences out of 15000+200000
+ 4294 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,2n,26p,1259b,93s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,2n,26p,1261b,93s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
